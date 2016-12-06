@@ -8,12 +8,12 @@ class Multiset
 
     def add(item, count=1)
         @hash[item] += count
-        @hash.delete(item) if @hash[item] == 0
+        @hash[item] == 0 ? @hash.delete(item) : @hash[item]
     end
 
     def remove(item, count=1)
         @hash[item] -= count
-        @hash.delete(item) if @hash[item] == 0
+        @hash[item] == 0 ? @hash.delete(item) : @hash[item]
     end
 
     def dump(item)
