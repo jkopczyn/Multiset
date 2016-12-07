@@ -64,4 +64,40 @@ describe Multiset do
   it 'can convert to an array' do
       fail
   end
+
+  it 'can convert to a set' do
+      fail
+  end
+
+  it 'can flatten member sets and multisets to the top level' do
+      fail
+  end
+
+  it 'can test being a subset of a multiset' do
+      fail
+  end
+
+  it 'can test being a subset of a set' do
+      fail
+  end
+
+  it 'can test being a superset of a multiset' do
+      fail
+  end
+
+  it 'can test being a superset of a set' do
+      fail
+  end
+
+  it 'can merge another collection into the multiset' do
+      fail
+  end
+
+  it 'can subtract another collection from the multiset' do
+      fail
+  end
+
+  it 'can filter items for obeying some test' do
+      fail
+  end
 end
